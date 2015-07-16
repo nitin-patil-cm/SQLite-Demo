@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nitinpatil.sqliteddemo.addcusutomer">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText"
+                    android:layout_weight="3"
+                    android:text="Search user..." />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView"
+                    android:layout_weight="1"
+                    android:src="@android:mipmap/sym_def_app_icon" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollView2" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="@android:dimen/app_icon_size"
+                    android:text="New Text"
+                    android:id="@+id/textView10"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#ffffc931"
+                    android:gravity="fill_vertical"
+                    android:paddingLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:onClick="user_call_click" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="@android:dimen/app_icon_size"
+                    android:text="New Text"
+                    android:id="@+id/textView12"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#ffffc931"
+                    android:gravity="fill_vertical"
+                    android:paddingLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:onClick="user_call_click" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="@android:dimen/app_icon_size"
+                    android:text="New Text"
+                    android:id="@+id/textView13"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#ffffc931"
+                    android:gravity="fill_vertical"
+                    android:paddingLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:onClick="user_call_click" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="@android:dimen/app_icon_size"
+                    android:text="New Text"
+                    android:id="@+id/textView14"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#ffffc931"
+                    android:gravity="fill_vertical"
+                    android:paddingLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:onClick="user_call_click" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="@android:dimen/app_icon_size"
+                    android:text="New Text"
+                    android:id="@+id/textView11"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#ffffc931"
+                    android:gravity="fill_vertical"
+                    android:paddingLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:onClick="user_call_click" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>
